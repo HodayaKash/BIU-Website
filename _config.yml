@@ -1,0 +1,43 @@
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-chirpy
+
+# The language of the webpage — the layout will be changed, otherwise the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone ` https://kevinnovak.github.io/Time-Zone-Picker 
+timezone: Asia/Shanghai
+
+# jekyll-seo-tag settings — thttps://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ℘ ---------------------------------------------------------------------
+title: Hodaya Kashkash # the main title
+tagline: Computer Science student at Bar Ilan University # it will display as the sub-title
+description: >- # used by seo meta and the atom feed
+  Here you can find updated summaries for the year 2024 for the computer science degree at Bar Ilan University.
+
+# Fill in the protocool & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
+url: 'https://hodayakash.github.io'
+
+github:
+  username: HodayaKash
+
+social:
+  name: Hodaya Kashkash
+  email: Hodaya.kash@gmail.com
+  links:
+    - 'https://github.com/HodayaKash'
+    - 'https://linkedin.com/in/hodayakash'
+
+# Site Verification Settings
+webmaster_verifications:
+  google: ''
+  bing: '''
+  alexa: ''
+  yandex: '''
+  baidu: '''
+  facebook: ''
+
+# Pine settings
+instance_robots: false
