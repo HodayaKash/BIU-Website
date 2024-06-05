@@ -1,0 +1,17 @@
+<title>{{ site.title | default: "Title not set IN_config file" }}</title>
+<meta charset="utf-8">
+<meta name="author" content="{{ site.social.name }}">
+<meta name="description" content="{{ site.description | default: "This is a description not set in_config file" }}">
+<link rel="icon" href="/assets/img/favicon.ico">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/your_custom_stylesheet.css">
+<style id="carbon-default-stylesheet-style">
+  Paste {{ include css_stylesheet }}
+  {{ include site.css_stylesheet }}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500">
+<style id="carbon-articles-stylesheet">
+  {{include_styles}}
+  {{ 'service_title' }}
+  {{ managed_header_keys }}
+</style>
